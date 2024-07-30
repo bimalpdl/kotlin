@@ -1,7 +1,6 @@
-import kotlin.collections.EmptyList.get
 
 // arrayOf() function is used to declare Array in Kotlin
-fun main(args: Array<String>){
+fun main(){
     var arr = arrayOf(2,3,4)    // implicit declaration of array i.e data type of array is declared by compiler itself
     for (i in arr){
         println(i)
@@ -13,7 +12,7 @@ fun main(args: Array<String>){
     }
 
     // get method is used to read array element from given element
-    println(get(0))
-
+    //println(get(0))
+    //set(arr[2],"Hello")
 
 }
