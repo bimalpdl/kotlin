@@ -4,6 +4,7 @@ fun main() {
     val num = readln().toInt()
     val result = square( num )
     println ("The square of $num is $result" )
+    println ("The square of $num is $result" )
 
 
     // String concatenation

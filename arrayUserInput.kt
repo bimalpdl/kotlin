@@ -8,7 +8,7 @@ fun main () {
     }
     println("Size of the array is:  " + array.size)
     println("The elements in the array are: ")
-    for ((index,element) in array.withIndex()){    // this prints array index along with element
+    for ((index,element) in array.withIndex()){    // prints array index along with element
         println("Index: $index : Element : $element")
     }
 }
