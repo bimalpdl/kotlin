@@ -3,7 +3,7 @@ fun main () {
     val size : Int = readln().toInt()
     val array = IntArray(size)   // this is worst way to define array size(array size as variable), but I don't know why
     for (i in 0 until size){
-        println("Enter ${ i + 1} element of the array")
+        println("Enter ${ i + 1} integer element of the array")
         array[i] = readln().toInt()
     }
     println("Size of the array is:  " + array.size)
